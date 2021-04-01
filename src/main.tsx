@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
-import routes from './routes/index';
+import { routes } from './routes/index';
+import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,4 +17,4 @@ ReactDOM.render(
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
-)
+);

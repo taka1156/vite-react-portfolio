@@ -27,4 +27,23 @@ const routes: Route[] = [
   },
 ];
 
-export default routes;
+const routesNav: RouteNav[] = [
+  {
+    name: 'top',
+    path: '/',
+  },
+  {
+    name: 'profile',
+    path: './profile',
+  },
+  {
+    name: 'skill',
+    path: './skill',
+  },
+  {
+    name: 'portfolio',
+    path: './portfolio',
+  },
+];
+
+export {routes, routesNav};

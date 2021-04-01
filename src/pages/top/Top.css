@@ -10,3 +10,14 @@
   border-bottom: 1px solid;
   border-image: linear-gradient(45deg, #906dfe, #61dafb) 10;
 }
+
+.top__sub-title {
+  margin: 10px auto;
+  font-size: 1.3em;
+}
+
+@media screen and (min-width: 768px) {
+  .top__sub-title {
+    font-size: 1.8em;
+  }
+}

@@ -1,20 +1,28 @@
 import React from 'react';
+import './PortfolioCard.css';
 
-const View = (props: PortfolioCard) => {
+type PropsType = {
+  card: PortfolioCard;
+};
+
+const View = (props: PropsType) => {
   return (
-    <div>
-      <h2>{props.productName}</h2>
-      <img src={props.productImg} alt={`${props.productName}の画像`} />
-      <ul>
-        {props.langs.map((lang) => (
-          <li>{lang}</li>
+    <div className="portfolio-card">
+      <img
+        className="portfolio-card__img"
+        src={props.card.productImg}
+        alt={`${props.card.productName}の画像`}
+      />
+      <h2 className="portfolio-card__title">{props.card.productName}</h2>
+      <ul className="portfolio-card__lang">
+        {props.card.langs.map((lang) => (
+          <li key={lang} className="portfolio-card__lang-item">{lang},</li>
         ))}
       </ul>
-      <p>{props.contents}</p>
+      <p className="portfolio-card__contents">{props.card.contents}</p>
+      <a className="portfolio-card__link" href={props.card.productUrl}>詳細</a>
     </div>
   );
 };
 
-export default {
-  View,
-};
+export default View;

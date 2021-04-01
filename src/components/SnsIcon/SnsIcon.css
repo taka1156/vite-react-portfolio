@@ -1,0 +1,15 @@
+.sns-icon {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.sns-icon__item {
+  display: block;
+  margin: 0 auto;
+}
+
+.sns-icon__img {
+  display: flex;
+  width: 50px;
+}
