@@ -137,7 +137,7 @@ const PortfolioCards: PortfolioCard[] = [
   },
   {
     productName: 'ブログサイト',
-    productImg: '/img/portfolio/default.png',
+    productImg: './img/portfolio/default.png',
     productUrl: 'https://blog.taka1156.site',
     langs: ['Nuxt', 'marked.js', 'jest', 'Storybook'],
     contents:
@@ -152,7 +152,7 @@ const PortfolioCards: PortfolioCard[] = [
   },
   {
     productName: 'line ボット',
-    productImg: '/img/portfolio/default.png',
+    productImg: './img/portfolio/default.png',
     productUrl: '',
     langs: ['express', 'line-bot-sdk-nodejs'],
     contents: 'サンプルサンプルサンプルサンプルサンプルサンプルサンプル',
