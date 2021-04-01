@@ -73,17 +73,7 @@ const SkillCards: SkillCard[] = [
       '初めて触れたフレームワークです。Nuxtは、SSGなども一通り触っています。',
   },
   {
-    skillName: 'docker',
-    level: 1,
-    contents: 'サンプルサンプルサンプルサンプルサンプルサンプルサンプル',
-  },
-  {
     skillName: 'electron',
-    level: 2,
-    contents: 'サンプルサンプルサンプルサンプルサンプルサンプルサンプル',
-  },
-  {
-    skillName: 'firebase',
     level: 2,
     contents: 'サンプルサンプルサンプルサンプルサンプルサンプルサンプル',
   },
