@@ -2,15 +2,15 @@ import React from 'react';
 import './SnsIcon.css';
 
 type PropsType = {
-  sns: SnsAccount;
+  sns: SnsAccounts;
 };
 
-type SnsAccounts = SnsType & {
+type SnsAccountList = SnsType & {
   key: string;
 };
 
 const View = (props: PropsType) => {
-  let snsList: SnsAccounts[] = [];
+  let snsList: SnsAccountList[] = [];
 
   const SnsObjToArray = () => {
     const snsObj = props.sns;
@@ -26,7 +26,7 @@ const View = (props: PropsType) => {
 
   return (
     <ul className="sns-icon">
-      {snsList.map((account: SnsAccounts) => (
+      {snsList.map((account: SnsAccountList) => (
         <li key={account.key}>
           <a className="sns-icon__item" href={account.url}>
             <img

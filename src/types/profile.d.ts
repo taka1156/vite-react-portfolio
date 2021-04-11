@@ -28,7 +28,7 @@ type SnsType = {
   url: string;
 }
 
-type SnsAccount = {
+type SnsAccounts = {
   github: SnsType;
   twitter: SnsType;
   qiita: SnsType;

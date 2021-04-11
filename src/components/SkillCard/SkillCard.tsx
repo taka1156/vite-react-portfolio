@@ -11,7 +11,7 @@ const View = (props: PropsType) => {
     const stars = [];
 
     for (let i = 0; i < level; i++) {
-      stars.push(<li className="skill-card__star-item">★</li>);
+      stars.push(<li key={i} className="skill-card__star-item">★</li>);
     }
 
     return stars;

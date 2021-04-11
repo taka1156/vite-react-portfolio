@@ -31,7 +31,7 @@ const CERTIFICATIONS: Certificate[] = [
   },
 ];
 
-const SNS_ACCOUNT: SnsAccount = {
+const SNS_ACCOUNTS: SnsAccounts = {
   github: {
     userName: 'taka1156',
     img: './img/sns/github-logo.png',
@@ -125,7 +125,7 @@ export {
   SITE_SUBTITLE,
   USER_PROFILE,
   CERTIFICATIONS,
-  SNS_ACCOUNT,
+  SNS_ACCOUNTS,
   SkillCards,
   PortfolioCards,
 };
